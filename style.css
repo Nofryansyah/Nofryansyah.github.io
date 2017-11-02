@@ -1,0 +1,185 @@
+*{
+margin: 0px; padding: 0px;	
+font-family: 'Oswald', sans-serif; font-weight: normal;
+max-width: 100% !important;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+img{
+	max-width: 100%; max-height: 100%;
+}
+
+/*-- bagian pertama --*/
+#pertama{
+	background: url('gambar1.jpg') no-repeat;
+	background-size: cover; 
+	height: 650px;
+	padding-top: 20px;
+}
+
+h2{
+	color: white;
+}
+.clear{
+	clear:both;
+}
+
+
+.konten{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.kolom_3{
+	width: 300px; float:left;
+	
+}
+
+.kolom_3_tengah{
+	margin: 0 30px;
+}
+
+#logo{
+	img: url('project/profil.jpg');
+	display: block; width: 100px; margin:0 auto;
+}
+
+#menu{
+	background-color: blue;
+	height: 31px; line-height; 50px;
+	font-size: 20px; margin-top: 20px;
+}
+#menu a{
+	display: blcok; text-align: center; color:white;
+}
+
+#menu a:hover{
+	background-color: red;
+}
+#box_sd{
+	background-color: rgba(44, 155, 221, 0.7);
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin: 80px 0;
+	padding: 20px 0;
+}
+
+#box_sd a{
+	display: block;
+	border: 2px solid white;
+	color: white;
+	padding: 5px 0;
+	width: 300px;
+	margin: 25px auto 0 auto;
+}
+
+#box_sd a:hover{
+	background-color: white;
+	color: blue;
+}
+ 
+/*-- bagian kedua --*/
+#kedua{
+	background-color: black;
+	color:white;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+h2{
+	font-size: 35px;
+	padding: 30px 0 45px 0;
+	width: 200px; 
+	margin: 0 auto;
+}
+
+#kedua img{
+	width: 250px; height: 250px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.setiap_drum_cover{
+	position: relative;
+}
+
+.setiap_drum_cover p{
+	position: absolute;
+	top:0px; left: 25px;
+	width: 250px; height:250px; line-height: 250px;
+	text-align: center; font-size: 25px;
+	background-color: black;
+	color: white;
+	border-radius: 50%;
+	display: none;
+}
+.setiap_drum_cover:hover p{
+	display: block;
+	color: white;
+}
+
+.deskripsi{
+	font-size: 22px;
+}
+
+	
+/*-- bagian ketiga --*/
+.kolom_2{
+	float: left;
+	width: 450px;
+	margin: 0 15px;
+}
+
+#ketiga h2{
+	text-align: center;
+	color: blue;
+}
+
+#ketiga input, #ketiga textarea{
+	display: black;
+	width: 100%;
+	height; 30px;
+	margin-bottom: 12px;
+	border: 2px solid blue;
+}
+
+#ketiga textarea{
+	height: 130px;
+}
+
+input[type="submit"]{
+	background-color: #0074b9;
+	color: white;
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: #148fd7;
+}
+
+#ketiga iframe{
+	max-width: 450px;
+}
+
+/*-- footer --*/
+
+#footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	margin-top: 20px;
+}
+
+
+
+
+
